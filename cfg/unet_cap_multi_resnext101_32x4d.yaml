@@ -1,0 +1,5 @@
+model_name : 'unet'
+encoder : 'resnext101_32x4d'
+encoder_weights : 'ssl'
+classes : ['_background_', 'E_collapse_angle','E_skew','E_exposure','P_extend','P_broken']
+activation : 'softmax2d' # one of 'sigmoid' or 'softmax2d'

@@ -1,0 +1,5 @@
+model_name : 'unet'
+encoder : 'resnet50'
+encoder_weights : 'imagenet'
+classes : ['_background_', 'E_collapse_angle','E_skew','E_exposure','P_extend','P_broken']
+activation : 'softmax2d' # one of 'sigmoid' or 'softmax2d'
